@@ -34,6 +34,13 @@ class App{
                     'Person/edit/{id}' => 'Person,edit',
                     'Person/update' => 'Person,update'];
 
+                    /*1- localhost/Main/index -> site landing view
+2- Localhost/Main/about_us -> the about us view
+3- localhost/Contact/index -> the contact us form view
+4- localhost/Contact/read -> the listing of all messages
+5- localhost/Count/index -> a page load counter
+*/
+
         //one by one compare the url to resolve the route
         foreach ($routes as $routeUrl => $controllerMethod) {
             if($url == $routeUrl){//match the route

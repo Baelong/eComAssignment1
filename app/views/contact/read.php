@@ -6,6 +6,7 @@
 </head>
 <body>
 	<div id='container'>
+		<h1>Contact Us - Messages we get</h1>
 		<table>
 			<tr><th>email</th><th>message</th><th>IP</th></tr>
 

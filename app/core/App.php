@@ -11,7 +11,9 @@ class App{
         $routes = ['Main/index'=>'Main,index',
                     'Main/about_us'=>'Main,about_us',
                     'Contact/index' => 'Contact,index',
-                    'Contact/read' => 'Contact,read'];
+                    'Contact/read' => 'Contact,read',
+                    'Contact/send_messages' => 'Contact,send_messages',
+                    'Contact/read_messages' => 'Contact,read_messages'];
 
         //one by one compare the url to resolve the route
         foreach ($routes as $routeUrl => $controllerMethod) {

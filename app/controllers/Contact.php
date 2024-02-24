@@ -26,7 +26,7 @@ class Contact extends \app\core\Controller{
 		
 		//write message to txt file
 		$sentMessage->write(); 
-		 header('Location: /Contact/read');
+		 header('Location:/Contact/read');
 		 exit;
 	}
 }

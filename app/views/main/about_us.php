@@ -34,7 +34,7 @@
                 <tr>
                     <td>
                     	<figure>
-                    		<img src="/resources/ali.jpg" height = '50%' width = '50%' />
+                    		<img src="resources/ali.jpg" height = '50%' width = '50%' />
                     		<figcaption>Ali Ilyas<figcaption>
                     
                    		 </figure>

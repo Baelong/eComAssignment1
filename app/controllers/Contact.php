@@ -9,9 +9,14 @@ class Contact extends \app\core\Controller{
 		$this->view('Contact/index');
 	}
 
+	function read(){
+
+		$this->view('Contact/read');
+	}
+
 	function read_messages(){
 		$messages = \app\models\Message::read();
-		$this->view('contact/read',$messages);
+		$this->view('contact/read',['data' => $messages]);
 	}
 
 	function send_messages(){
@@ -26,7 +31,7 @@ class Contact extends \app\core\Controller{
 		
 		//write message to txt file
 		$sentMessage->write(); 
-		 header('Location: /Contact/read');
+		 header('Location:/Contact/read');
 		 exit;
 	}
 }

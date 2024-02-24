@@ -6,11 +6,11 @@ use stdClass;
 class Main extends \app\core\Controller{
 
 	function landingPage(){
-	$this->view('main/index');
+	$this->view('Main/index');
 	}
 	
 	function aboutUs(){
-	$this.view('main/about_us');
+	$this.view('Main/about_us');
 	}
 	
 	

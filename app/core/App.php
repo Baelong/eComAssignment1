@@ -27,9 +27,9 @@ class App{
         $url = $_GET['url'];
 
         //defined a few routes "url"=>"controller,method"
-        $routes = ['Main/landingPage'=>'Main,landingPage',
-                    'Main/aboutUs'=>'Main,aboutUs',
-                    ''=>'Main,landingPage'];
+        $routes = ['Main/index'=>'Main,index',
+                    'Main/about_us'=>'Main,about_us',
+                    ''=>'Main,index'];
 
         //one by one compare the url to resolve the route
         foreach ($routes as $routeUrl => $controllerMethod) {

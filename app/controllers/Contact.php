@@ -16,7 +16,7 @@ class Contact extends \app\core\Controller{
 
 	function read_messages(){
 		$messages = \app\models\Message::read();
-		$this->view('contact/read',$messages);
+		$this->view('contact/read',['data' => $messages]);
 	}
 
 	function send_messages(){

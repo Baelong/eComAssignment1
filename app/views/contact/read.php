@@ -18,7 +18,8 @@
 			<tr><th>email</th><th>message</th><th>IP</th></tr>
 
 		<?php
-		foreach($messageData as $msg){
+		
+		foreach($data as $msg){
 			echo "<tr><td>$msg->email</td><td>$msg->message</td><td>$msg->IP</td></tr>";
 		}
 		?>
